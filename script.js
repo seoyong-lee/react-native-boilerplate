@@ -1,3 +1,8 @@
 #!/usr/bin/env node
 
-console.log("This is post init script");
+// const { rm } = require('fs').promises;
+// const { applyPlugins } = require('./template/plugins');
+
+// applyPlugins().then(async () => {
+//   await rm('./plugins', { recursive: true });
+// });
