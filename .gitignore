@@ -27,3 +27,5 @@ template/.flowconfig
 template/.buckconfig
 template/.prettierrc.js
 template/.watchmanconfig
+
+.env
