@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/seoyong-lee/react-native-boilerplate#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
   }
 }
