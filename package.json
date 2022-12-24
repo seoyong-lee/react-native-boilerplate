@@ -1,6 +1,6 @@
 {
   "name": "rn-basic-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Native template for building basic navigation using TypeScript",
   "repository": {
     "type": "git",
@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/seoyong-lee/react-native-boilerplate/issues"
   },
-  "homepage": "https://github.com/seoyong-lee/react-native-boilerplate#readme"
+  "homepage": "https://github.com/seoyong-lee/react-native-boilerplate#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
