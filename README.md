@@ -6,6 +6,10 @@ A React Native template for building basic navigation using TypeScript
     <img src="doc/example.png" alt="example" width="100%">
 </div>
 
+## Features
+
+- Basic navigation setup with Vector Icons
+
 ## Quick start
 
 To Create a new project using the boilerplate :
