@@ -9,6 +9,7 @@ A React Native template for building basic navigation using TypeScript
 ## Features
 
 - Basic navigation setup with Vector Icons
+- Import alias
 
 ## Quick start
 
