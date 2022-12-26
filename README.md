@@ -1,4 +1,4 @@
-# react-native-boilerplate
+# React Native Basic Navigation boilerplate
 
 A React Native template for building basic navigation using TypeScript
 
@@ -8,7 +8,8 @@ A React Native template for building basic navigation using TypeScript
 
 ## Features
 
-- Basic navigation setup with Vector Icons
+- React Native template with TypeScript
+- Basic navigation with Vector Icons
 - Import alias
 
 ## Quick start
