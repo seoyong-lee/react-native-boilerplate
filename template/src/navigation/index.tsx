@@ -1,9 +1,7 @@
 import React from "react";
-import { SafeAreaView, StatusBar } from "react-native";
+import { SafeAreaView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
-import { COLOR } from "@/constants/colors";
 
 import HomeNav from "@/navigation/HomeNav";
 import SignInScreen from "@/screens/SignInScreen";

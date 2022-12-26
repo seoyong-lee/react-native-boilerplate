@@ -5,8 +5,6 @@ import {
   StyleSheet,
   useWindowDimensions,
   ScrollView,
-  Alert,
-  SafeAreaView,
 } from "react-native";
 import { useForm } from "react-hook-form";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
