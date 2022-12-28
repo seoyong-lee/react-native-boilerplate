@@ -3,12 +3,13 @@
 A React Native template for building basic navigation using TypeScript
 
 <div align="center">
-    <img src="doc/example.png" alt="example" width="100%">
+    <img src="docs/example.png" alt="example" width="100%">
 </div>
 
 ## Features
 
 - React Native template with TypeScript
+- Google / Kakao Sign-in
 - Basic navigation with Vector Icons
 - Import alias
 
@@ -20,8 +21,7 @@ To Create a new project using the boilerplate :
 npx react-native init MyApp --template rn-basic-boilerplate
 ```
 
-- `yarn install`
-- `npx pod-install` to link native code
+Then follow the [Google Sign-in guide](docs/google-signin-guide.md) and [Kakao Sign-in guide](docs/kakao-signin-guide.md)
 
 Run the project by running:
 
@@ -35,6 +35,8 @@ Run the project by running:
   - @react-navigation/bottom-tabs
   - react-native-safe-area-context
   - react-native-screens
+- @react-native-google-signin/google-signin
+- @react-native-seoul/kakao-login
 - react-hook-form
 - react-native-vector-icons
 - babel-plugin-module-resolver

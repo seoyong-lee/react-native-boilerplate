@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
 
+#import <RNKakaoLogins.h>
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
@@ -80,6 +81,20 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 #endif
 
   return initProps;
+}
+
+- (BOOL)application:(UIApplication *)app
+     openURL:(NSURL *)url
+     options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+  dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+      dispatch_async(dispatch_get_main_queue(), ^(void){
+        if ([RNKakaoLogins isKakaoTalkLoginUrl:url]) {
+          [RNKakaoLogins handleOpenUrl: url];
+        }
+      });
+  });
+
+ return NO;
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge

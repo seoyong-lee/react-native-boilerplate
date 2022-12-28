@@ -9,7 +9,16 @@
  */
 
 import React from "react";
+import { GoogleSignin } from "@react-native-google-signin/google-signin";
 import Navigation from "./src/navigation";
+import config from "./src/config";
+
+GoogleSignin.configure({
+  offlineAccess: true,
+  forceCodeForRefreshToken: true,
+  webClientId: config.WEB_CLIENT_ID,
+  iosClientId: config.IOS_CLIENT_ID,
+});
 
 const App = () => {
   return <Navigation />;

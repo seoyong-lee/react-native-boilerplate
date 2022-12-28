@@ -1,0 +1,4 @@
+export default {
+  WEB_CLIENT_ID: "YOUR_WEB_CLIENT_ID",
+  IOS_CLIENT_ID: "YOUR_IOS_CLIENT_ID",
+};
