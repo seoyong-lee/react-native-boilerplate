@@ -2,7 +2,7 @@
 
 ### 1. Google project configuration
 
-- Add OAuth 2.0 Client from [Google Cloud](https://console.cloud.google.com/apis/credentials)
+- Add OAuth 2.0 Clients from [Google Cloud](https://console.cloud.google.com/apis/credentials)
 - Follow the instructions to [Configure a Google API Project](https://developers.google.com/identity/authentication) from the official docs.
 
 ### 2. Native settings

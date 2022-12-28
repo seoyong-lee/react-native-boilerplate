@@ -11,7 +11,7 @@
   - Update Andoroid / iOS platform information
     - Android
       - Package name: `android/app/main/AndroidManifest.xml` → package attribute from manifest tag
-      - Key hash: `$ keytool -keystore path-to-debug-or-production-keystore -list -v`
+      - Key hash: `$ keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -storepass android -keypass android | openssl sha1 -binary | openssl base64`
     - iOS
       - Bundle ID: `Xcode > TARGETS > Project > Info > Packaging > Product Bundle Identifier`
 
@@ -50,3 +50,4 @@
 
 - [Kakao Login Docs](https://developers.kakao.com/docs/latest/en/kakaologin/common)
 - [@react-native-seoul/kakao-login](https://github.com/react-native-seoul/react-native-kakao-login)
+- [stack overflow - There is no debug.keystore in .android folder](https://stackoverflow.com/questions/8576732/there-is-no-debug-keystore-in-android-folder)
