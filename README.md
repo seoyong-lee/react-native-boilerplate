@@ -1,6 +1,6 @@
 # React Native Basic Navigation boilerplate
 
-A React Native template for building basic navigation using TypeScript
+React Native template for building basic navigation using TypeScript
 
 <div align="center">
     <img src="docs/example.png" alt="example" width="100%">
